@@ -189,6 +189,8 @@ footer {
   padding: 20px 0;
   border: 1px double #e0e0e0;
   border-radius: 10px;
+  /* display: flex;
+  justify-content: center; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -238,6 +240,8 @@ footer {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
   padding: 50px 60px;
+  /* display: flex;
+    justify-content: center; */
   display: flex;
   justify-content: center;
 }
@@ -286,6 +290,12 @@ footer {
   width: 108px;
   border-radius: 5px;
   padding: 8px 0;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn:hover {
+    width: 100%;
+    padding: 25px 0;
+  }
 }
 .home .walk .walk-img {
   width: 46%;

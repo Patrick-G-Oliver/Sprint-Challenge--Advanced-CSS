@@ -59,8 +59,9 @@
     margin-top: 60px;
     border-top: 1px solid @main-border-color;
     padding: 50px 60px;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
+    .centerer();
 
       @media @phone {
         flex-direction: column-reverse;
@@ -88,13 +89,16 @@
         .btn-styler(#22283a, white);
 
         @media @phone {
-          width: 100%;
-          padding: 25px 0;
+          .phone-btn-styler();
         }
       }
 
       .btn:hover {
         .btn-styler(white, #22283a);
+
+        @media @phone {
+          .phone-btn-styler();
+        }
       }
     }
 
