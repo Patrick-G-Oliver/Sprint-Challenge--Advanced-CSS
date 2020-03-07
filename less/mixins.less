@@ -1,15 +1,16 @@
 // Mixins Here
-.phone-btn-styler() {
-    width: 100%;
-    padding: 25px 0;
-}
-
 .centerer () {
     display: flex;
     justify-content: center;
 }
 
-// 2-parameter parametric mixin 
+.phone-btn-styler() {
+    width: 100%;
+    padding: 25px 0;
+}
+
+// 2-parameter parametric mixin for 
+// sign-up button styles
 .btn-styler(@bc, @c) {
     background-color: @bc;
     color: @c;

@@ -1,11 +1,14 @@
 // Home Content
-
 .home {
 
   .intro {
 
-    .horizon {
+    img.horizon {
       border-radius: 5px;
+
+      @media @phone {
+        max-width: 500px;
+      }
     }
 
     h2 {
@@ -32,7 +35,8 @@
 
     .blast {
       @media @phone {
-        width: 100%;
+        width: 95%;
+        margin-left: 20px;
       }
     }
 

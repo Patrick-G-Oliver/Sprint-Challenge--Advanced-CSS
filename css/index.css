@@ -194,10 +194,15 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
-.home .intro .horizon {
+.home .intro img.horizon {
   border-radius: 5px;
+}
+@media (max-width: 500px) {
+  .home .intro img.horizon {
+    max-width: 500px;
+  }
 }
 .home .intro h2 {
   padding: 15px;
@@ -218,7 +223,8 @@ footer {
 }
 @media (max-width: 500px) {
   .home .space-images .blast {
-    width: 100%;
+    width: 95%;
+    margin-left: 20px;
   }
 }
 @media (max-width: 500px) {

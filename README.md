@@ -50,7 +50,7 @@ I would describe preprocessing as CSS simplified and at once more elegant and mo
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-My favorite concept in preprocessing is the use of variables and the centralized control they offer. That is, when the value of a variable is changed all the elements styled by that variable change in unison throughout the entire document, thereby eliminating the need to search for every instance of a given style to be changed. 
+My favorite concept in preprocessing is the use of variables and the centralized control they offer. That is, when the value of a variable is changed all the elements styled by that variable change in unison throughout the entire document, eliminating the need to search them out. 
 
 The concept that gives me the most trouble, although it’s minor and temporary, is the use of escaping. While its utility is obvious, something about the actual syntax (i.e. ~”( )” still seems awkward to me, though I’m sure that will pass.
 
