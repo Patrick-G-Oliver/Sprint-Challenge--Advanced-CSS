@@ -160,6 +160,23 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+section.navigation {
+  background-color: #f6f6f6;
+  text-align: center;
+  margin-top: 15px;
+}
+section.navigation .headline {
+  font-size: 4rem;
+  padding-top: 10px;
+}
+section.navigation .nav-bar {
+  padding-bottom: 20px;
+}
+section.navigation .nav-bar a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #22283a;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -213,7 +230,7 @@ footer {
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn {
-  background-color: #2e2a2a;
+  background-color: #22283a;
   color: white;
   font-size: 2rem;
   text-align: center;
@@ -223,7 +240,7 @@ footer {
 }
 .home .walk .walk-text .btn:hover {
   background-color: white;
-  color: #2e2a2a;
+  color: #22283a;
   font-size: 2rem;
   text-align: center;
   width: 108px;
