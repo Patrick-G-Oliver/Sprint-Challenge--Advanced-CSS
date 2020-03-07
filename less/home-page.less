@@ -4,6 +4,10 @@
 
   .intro {
 
+    .horizon {
+      border-radius: 5px;
+    }
+
     h2 {
       padding: 15px;
     }
@@ -24,6 +28,18 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+    }
+
+    .blast {
+      @media @phone {
+        width: 100%;
+      }
+    }
+
+    .sky, .launch {
+      @media @phone {
+        display: none;
+      }
     }
   }
 
