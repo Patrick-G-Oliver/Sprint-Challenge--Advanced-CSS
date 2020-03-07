@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive website uses media queries to “adapt” to various devices (desktop, tablet, and phone), yet uses fixed, absolute-length units (pixels) to set the sizes of elements and fonts. A responsive website also uses media queries, but, unlike an adaptive site, employs responsive, relative- length units (rems, %. vh/vw, etc.) to set element and font sizes to cater to the widest range of devices possible. 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first design implies that a website’s layout is configured first for mobile (telephone sized) screens using min-width media queries for larger screens. Desktop first, on the other hand, starts with a desktop-scaled design and includes max-width media queries for smaller screens. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Setting the font size to 62.5% in the html tag allows for rem units to be scaled at a ratio of 1rem : 10px, facilitating font-size calculation. It also avoids overwriting browser default settings through the use of a percentage rather than a pixel value on the html root element font-size setting.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+I would describe preprocessing as CSS simplified and at once more elegant and more powerful: elegant in that it simplifies and centralizes rulesets and their organization (compared to traditional CSS) with nesting and variables, and powerful because more element styling can be accomplished with less code in a smaller space with mixins and parametric mixins (which represent numerous lines of code in a single line in a given ruleset). 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept in preprocessing is the use of variables and the centralized control they offer. That is, when the value of a variable is changed all the elements styled by that variable change in unison throughout the entire document, eliminating the need to search them out. 
+
+The concept that gives me the most trouble, although it’s minor and temporary, is the use of escaping. While its utility is obvious, something about the actual syntax (i.e. ~”( )” still seems awkward to me, though I’m sure that will pass.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
